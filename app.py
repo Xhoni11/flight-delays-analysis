@@ -9,16 +9,6 @@ import matplotlib.ticker as mticker
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from tkinterdnd2 import TkinterDnD, DND_FILES
 
-# ── Colour palette ────────────────────────────────────────────────────────────
-BG        = "#1e1e2e"
-PANEL     = "#2a2a3e"
-ACCENT    = "#6c63ff"
-ACCENT2   = "#a78bfa"
-TEXT      = "#e2e8f0"
-SUBTEXT   = "#94a3b8"
-SUCCESS   = "#22c55e"
-BORDER    = "#3f3f5a"
-BAR_COLS  = ["#6c63ff", "#22c55e", "#f59e0b", "#ef4444", "#06b6d4"]
 
 df_global = None   # holds the loaded dataframe
 
